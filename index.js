@@ -95,7 +95,6 @@ console.log(filtered)
 
 
 function kesar(text, key){
-    debugger
     const alphavit = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
     return text.split('').map((ch) => {
         let y = alphavit.indexOf(ch.toUpperCase())
